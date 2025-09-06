@@ -1,0 +1,44 @@
+//primitive
+// 7 primitive data types : Number String Boolean null undefined Symbol BigInt
+const score = 100;
+const score1 = 100.2;
+const IsloggedIn = false;
+let userEmail ;
+
+const id = Symbol('123');
+const anotherid = Symbol('123');
+console.log(id === anotherid);
+//number
+const bigNumber = 3467974759763085647864578;
+//bigint
+const bigNumber1 = 3467974759763085647864578n;
+console.log(typeof bigNumber);
+
+//reference (non primitive data types)
+//arrays, objects,functions
+const heroes = ["hulk","ironman","spiderman","thor"];
+//object jo bhi curly braces me hoga
+let instance = {
+    name : "rishika",
+    age : 21,
+}
+//function
+const examplefunction = function(){
+    console.log("hello world");
+}
+
+//+++++++++++++++++
+ // Stack(primitive) ,  Heap(non-primitive) 
+ let  mygithubname = "rishika 82";
+ let othername = mygithubname;
+ othername = "34rfrgh";
+ console.log(mygithubname);
+ console.log(othername);
+
+ let user1 ={
+    name:"rizzika",
+    branch:"ece",
+ }
+
+ let user2 = user1;
+ console.log(user2.branch);
