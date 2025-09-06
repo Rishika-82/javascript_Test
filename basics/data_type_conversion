@@ -1,0 +1,58 @@
+let score1 = 34;
+let score2 = "34";
+//this is a string lekin ho jayega number me convert
+let score3 = "32dv5";
+//this is NaN not a number
+//null when changes to number gives 0
+let value1 = null;
+//undefined remains same
+let value2 = undefined;
+console.log(typeof score1);
+console.log(typeof score2);
+console.log(typeof score3);
+let new_score1 = Number(score1);
+let new_score2 = Number(score2);
+let new_score3 = Number(score3);
+let new_value1 = Number(value1);
+console.log(typeof score1);
+console.log(typeof score2);
+console.log(typeof score3);
+console.log(typeof new_score1);
+console.log(typeof new_score2);
+console.log(typeof new_score3);
+console.log(new_score3);
+console.log(new_value1);
+console.log(value2);
+let isloggedin = "dkjg";
+//if string not empty then after type change true
+//if empty string "" then after type change false
+let notloggedin = "";
+let new_isloggedin = Boolean(isloggedin);
+let new_notloggedin= Boolean(notloggedin);
+console.log(new_isloggedin);
+console.log(new_notloggedin);
+let value = 3;
+let negvalue = -value;
+console.log(negvalue);
+//arithmetic operaters
+console.log("2"+4+3);
+console.log(4+2+"5");
+console.log(+true);
+console.log(+"");
+
+let num = 100;
+num++;
+console.log(num);
+console.log(4>2);
+console.log(4>=2);
+console.log(4>2);
+console.log(4==2);
+console.log(4!=2);
+//changing the types
+console.log("4">2);
+console.log("4">=2);
+console.log("4">2);
+console.log("2"==2);
+//=== also checks for data type
+console.log("2"===2);
+console.log("4"!=2);
