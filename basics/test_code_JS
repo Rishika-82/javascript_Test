@@ -1,1 +1,9 @@
-console.log("hello hiii ")
+let acountNummber = 23452
+var cityname = "haridwar"
+const number = 4
+let college
+
+//dont use var because it does not recognises the scope,it is bad practice
+console.log(acountNummber)
+console.log([acountNummber,cityname,number,college])
+console.table([acountNummber,cityname,number,college])
